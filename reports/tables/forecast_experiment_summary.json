@@ -1,0 +1,42 @@
+[
+  {
+    "horizon_steps": 1,
+    "horizon_minutes": 15,
+    "rows_used": 261529,
+    "train_rows": 183070,
+    "validation_rows": 39229,
+    "test_rows": 39230,
+    "feature_columns": [
+      "sales_count_lag_1",
+      "sales_count_lag_2",
+      "sales_count_lag_4",
+      "sales_count_lag_8",
+      "sales_count_rolling_mean_4",
+      "sales_count_rolling_std_4",
+      "sales_count_rolling_max_4",
+      "sales_count_rolling_mean_8",
+      "sales_count_rolling_std_8",
+      "sales_count_rolling_max_8",
+      "hour",
+      "minute",
+      "day_of_week",
+      "day_of_month",
+      "month",
+      "is_weekend",
+      "quarter",
+      "redemption_count_lag_1",
+      "redemption_count_lag_2",
+      "redemption_count_lag_4",
+      "redemption_count_lag_8",
+      "interval_is_15min"
+    ],
+    "train_start": "2015-05-04 17:00:00",
+    "train_end": "2022-12-27 15:00:00",
+    "validation_start": "2022-12-27 15:15:00",
+    "validation_end": "2024-06-30 21:45:00",
+    "test_start": "2024-06-30 22:00:00",
+    "test_end": "2025-12-21 22:15:00",
+    "naive_feature": "sales_count_lag_1",
+    "best_model_by_validation_mae": "Random Forest"
+  }
+]

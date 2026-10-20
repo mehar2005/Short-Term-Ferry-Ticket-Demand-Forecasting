@@ -1,0 +1,5 @@
+horizon_steps,horizon_minutes,model,nominal_interval_coverage,observed_test_coverage,mean_interval_width,validation_absolute_residual_quantile,test_rows
+1,15,Naive persistence,0.9,0.8824624012235533,98.0,49.0,39230
+1,15,Linear Regression,0.9,0.8780780015294417,77.77044380510677,38.885221902553376,39230
+1,15,Random Forest,0.9,0.8808819780780015,76.62574920634937,38.31287460317468,39230
+1,15,Gradient Boosting,0.9,0.8781289829212338,77.7264755132728,38.863237756636394,39230

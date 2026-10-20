@@ -1,0 +1,6 @@
+{
+  "selection_rule": "Select the model with lowest validation MAE at each horizon; report test metrics only after selection.",
+  "mape_handling": "MAPE excludes zero-valued actual observations; zero counts are reported separately.",
+  "uncertainty_method": "Empirical absolute validation-residual quantile around test predictions; observed test coverage is diagnostic only.",
+  "caution": "Residual intervals are approximate and may be miscalibrated under changing demand, seasonality, or distribution shift."
+}

@@ -1,0 +1,43 @@
+{
+  "target_requested": "sales_count",
+  "target_column": "Sales Count",
+  "timestamp_column": "Timestamp",
+  "input_rows": 261538,
+  "rows_after_timestamp_sort_dedup": 261538,
+  "model_ready_rows": 261530,
+  "features": [
+    "sales_count_lag_1",
+    "sales_count_lag_2",
+    "sales_count_lag_4",
+    "sales_count_lag_8",
+    "sales_count_rolling_mean_4",
+    "sales_count_rolling_std_4",
+    "sales_count_rolling_max_4",
+    "sales_count_rolling_mean_8",
+    "sales_count_rolling_std_8",
+    "sales_count_rolling_max_8",
+    "hour",
+    "minute",
+    "day_of_week",
+    "day_of_month",
+    "month",
+    "is_weekend",
+    "quarter",
+    "redemption_count_lag_1",
+    "redemption_count_lag_2",
+    "redemption_count_lag_4",
+    "redemption_count_lag_8",
+    "interval_is_15min"
+  ],
+  "lags": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "rolling_windows": [
+    4,
+    8
+  ],
+  "note": "Rows with incomplete lag/rolling history are removed. No target imputation is performed."
+}

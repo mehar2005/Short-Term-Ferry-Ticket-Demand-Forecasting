@@ -1,0 +1,2 @@
+horizon_steps,model,partition,horizon_minutes,MAE,RMSE,MAPE_percent_excluding_zero_actuals,zero_actual_count,n
+1,Random Forest,validation,15,17.546911123033667,68.62648519928874,134.687437406594,2728,39229

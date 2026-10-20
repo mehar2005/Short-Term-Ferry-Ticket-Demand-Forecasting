@@ -1,0 +1,17 @@
+EXPLORATORY DATA ANALYSIS SUMMARY
+======================================
+Rows used: 261538
+Period: 2015-05-01 13:30:00 to 2025-12-21 22:30:00
+Measures: ['Sales Count', 'Redemption Count']
+
+                     count       mean         std  min  25%   50%   75%     max  median  missing  zero_count
+Sales Count       261538.0  49.599106   99.862285  0.0  3.0  13.0  48.0  7229.0    13.0        0       20548
+Redemption Count  261538.0  48.885030  104.549336  0.0  3.0  11.0  40.0  7216.0    11.0        0       27830
+
+Correlation matrix:
+                  Sales Count  Redemption Count
+Sales Count          1.000000          0.918163
+Redemption Count     0.918163          1.000000
+
+Interpretation: inspect trend, recurring patterns, outliers and sales/redemption relationships.
+EDA is descriptive, not causal. Forecasting validation must preserve chronological order.
